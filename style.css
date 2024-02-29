@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    background-color:#818181;
+}
+.calculator{
+    margin-top: 30px;
+    border: 1px solid #717377;
+    padding: 8px 12px 12px 12px;
+    background-color: #000000;
+    border: 2px solid #908b85;
+    border-radius: 20px;
+    box-shadow: 7px 10px 34px 1px rgb(0, 0, 0,0.68), inset -1px -6px 12px 0.1px #89847e;
+    width: 417px;
+    height: 578px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px;
+}
+
+.text{
+    font-size: 15px;
+    line-height: 1.3;
+    color: #989898;
+    letter-spacing: 2.5px;
+}
+.solar{
+    background-color: #522721;
+    width: 120px;
+    height: 44px;
+    border-radius: 4px;
+    display: flex;
+    box-shadow: inset 0 0 10px #000;
+}
+.vl{
+    border-left: 3px solid ;
+    height: 40px;
+    margin-left: 28.7px;
+    margin-top: 2px;
+    border-radius: 9px;
+}
+input{
+    width: 370px;
+    border:none;
+    padding: 5px;
+    margin: 3px 10px 30px 10px;
+    background: #688156;
+    box-shadow: inset 4px 5px 10px #000;
+    font-size: 77px;
+    text-align: right;
+    cursor: pointer;
+    color: #000;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input::placeholder{
+    color: #000;
+}
+button{
+    border-radius: 8px;
+    border: 1px solid #595757;
+    background-color: white !important;
+    margin: 0 4px 10px 8px;
+    height: 47px;
+    width: 82px;
+    box-shadow: opx 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+button:active{
+    transform:translate(0px,3px);
+    box-shadow: none;
+}
+.equalBtn{
+    background-color: #cdcdcd !important;
+    border-radius: 50% !important;
+
+}
+.gray-bg{
+    background-color: #cdcdcd !important;
+    border-radius: 50% !important;
+}
+.red-bg{
+    background-color: #b55772 !important;
+    
+}
+.operator{
+    color: #6dee0a;
+}
